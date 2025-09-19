@@ -1,0 +1,82 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff; /* branco */
+    color: #333;
+    line-height: 1.6;
+    animation: fadeIn 1.2s ease-in;
+}
+
+header {
+    background: linear-gradient(to right, #0055A4 33.3%, #ffffff 33.3% 66.6%, #EF4135 66.6%);
+    padding: 40px 20px;
+    text-align: center;
+    animation: slideDown 1s ease-out;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #222;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #0055A4; /* azul */
+}
+
+section p, section ul {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    transition: transform 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    background-color: #EF4135; /* vermelho */
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
