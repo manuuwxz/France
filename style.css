@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -80,3 +80,4 @@ footer {
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
